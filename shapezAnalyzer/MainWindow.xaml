@@ -1,0 +1,23 @@
+﻿<Window x:Class="shapezAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:shapezAnalyzer"
+        mc:Ignorable="d"
+        Title="Shapez Analyzer v2.0" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="600" MaxHeight="600" MinWidth="900" MaxWidth="900"
+        ResizeMode="CanMinimize" Background="LightBlue">
+    <Grid x:Name="BaseGrid"  d:DataContext="{d:DesignInstance Type=local:MainWindowViewModel}">
+        <Label Content="当前数据库：" HorizontalAlignment="Left" Margin="30,24,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="{Binding DatabasePath}" MaxWidth="500" HorizontalAlignment="Left" Margin="134,24,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="切换数据库" HorizontalAlignment="Right" Margin="0,25,30,0" VerticalAlignment="Top" Height="33" Width="150" Click="Button_ChangeDB_Click" FontSize="16"/>
+
+        <Label Content="目标路径：" HorizontalAlignment="Left" Margin="30,64,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox Name="TextBoxExpression" Text="{Binding Expression,UpdateSourceTrigger=PropertyChanged}" Background="MistyRose" Margin="134,69,30,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Height="23" TextAlignment="Left"/>
+        <Label Content="{Binding FormatCheckResult}" Foreground="{Binding FormatCheckResultColor}" HorizontalAlignment="Left" Margin="138,94,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock Text="{Binding ShapeInfo}"  Foreground="Black"  Background="Linen" Margin="30,0,470,30"  TextWrapping="Wrap" VerticalAlignment="Bottom" Height="395" FontSize="16" FontFamily="YouYuan" FontWeight="Bold"/>
+        <TextBlock Text="{Binding CompositionPath}"  Foreground="{Binding CompositionPathColor}"  Background="Linen" Margin="470,0,30,30"  TextWrapping="Wrap" VerticalAlignment="Bottom" Height="395" FontSize="16" FontFamily="YouYuan" FontWeight="Bold"/>
+    </Grid>
+</Window>

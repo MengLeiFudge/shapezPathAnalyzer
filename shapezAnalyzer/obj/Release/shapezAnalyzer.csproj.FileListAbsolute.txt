@@ -1,0 +1,15 @@
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\bin\Release\shapezAnalyzer.exe.config
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\bin\Release\shapezAnalyzer.exe
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\bin\Release\shapezAnalyzer.pdb
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.csprojAssemblyReference.cache
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\MainWindow.g.cs
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\App.g.cs
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer_MarkupCompile.cache
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer_MarkupCompile.lref
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\MainWindow.baml
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.g.resources
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.Properties.Resources.resources
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.csproj.GenerateResource.cache
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.csproj.CoreCompileInputs.cache
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.exe
+E:\project\csharp\shapezAnalyzer\shapezAnalyzer\obj\Release\shapezAnalyzer.pdb
